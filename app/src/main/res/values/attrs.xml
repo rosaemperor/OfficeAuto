@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text" format="string"/>
+    <attr name="textColor" format="color"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="backGroundColor" format="color"/>
+    <attr name="halfGroundColor" format="color"/>
+    <!--<attr name="halfLocation" format="flag"/>-->
+    <declare-styleable name="MyView">
+        <attr name="text"/>
+        <attr name="textColor"/>
+        <attr name="textSize"/>
+        <attr name="backGroundColor"/>
+        <attr name="halfGroundColor"/>
+        <!--<attr name="halfLocation"/>-->
+    </declare-styleable>
+
+</resources>

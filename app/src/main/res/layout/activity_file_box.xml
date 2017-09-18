@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<data>
+    <variable
+        name="event"
+        type="android.view.View.OnClickListener"/>
+</data>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:background="@color/color_White"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/lv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null">
+
+    </ListView>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="@dimen/dp66"
+        android:layout_height="@dimen/dp66"
+        app:backgroundTint="#ff87ffeb"
+        app:rippleColor="#33728dff"
+        android:onClick="@{event}"
+        android:id="@+id/add_new_file"
+        app:elevation="6dp"
+        android:layout_marginBottom="@dimen/dp93"
+        android:layout_marginRight="@dimen/dp12"
+        android:layout_gravity="end|bottom"
+        android:src="@mipmap/appendix_image"
+       />
+</android.support.design.widget.CoordinatorLayout>
+</LinearLayout></layout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <data>
+        <variable
+            name="event"
+            type="android.view.View.OnClickListener"/>
+    </data>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/color_White"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dp16.5"
+        android:paddingBottom="@dimen/dp16.5"
+       >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/notice_items_offText"
+            android:gravity="center_horizontal"
+            android:onClick="@{event}"
+            android:id="@+id/tab0"
+            android:text="@string/all"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:onClick="@{event}"
+            android:id="@+id/tab1"
+            android:textColor="@color/notice_items_offText"
+            android:text="@string/company_notice"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="@{event}"
+            android:gravity="center_horizontal"
+            android:id="@+id/tab2"
+            android:textColor="@color/notice_items_offText"
+            android:text="@string/department_notice"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp3"
+        android:scaleType="matrix"
+        android:id="@+id/iv_tab_line"
+        android:background="@color/colorAccent"
+        />
+    <!-- 上面这条线的实际宽度时在代码中控制的,宽度为屏幕宽度的三分之一-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/color_White"
+
+        />
+</LinearLayout></layout>

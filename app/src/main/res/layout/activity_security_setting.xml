@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="event"
+            type="android.view.View.OnClickListener"/>
+    </data>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_0.5dp_line">
+    <LinearLayout
+        style="@style/message_manager_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            style="@style/text_messagemangeer_left_style"
+            android:text="@string/login_password"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp18"
+            android:layout_weight="1"
+
+            style="@style/text_messagemangeer_right_style"
+            android:text="CEO，bich"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.5"
+        android:background="@color/color_0.5dp_line"/>
+    <LinearLayout
+        style="@style/message_manager_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            style="@style/text_messagemangeer_left_style"
+            android:text="@string/bind_phone"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/dp18"
+
+            style="@style/text_messagemangeer_right_style"
+            android:text="CEO，bich"/>
+    </LinearLayout>
+
+</LinearLayout></layout>

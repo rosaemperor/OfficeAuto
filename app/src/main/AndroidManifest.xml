@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shiyidaoAndroidApp">
+
+    <application
+        android:allowBackup="true"
+        android:name="com.shiyidaoAndroidApp.app.Application"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.shiyidaoAndroidApp.ui.login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.shiyidaoAndroidApp.MainActivity"/>
+        <activity android:name="com.shiyidaoAndroidApp.ui.HomePageActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.login.ReginstActivity"/>
+        <activity android:name="com.shiyidaoAndroidApp.ui.login.ReSetPasswordActivity"/>
+        <activity android:name="com.shiyidaoAndroidApp.ui.login.FindPasswordActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.apps.NoticeActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.settings.SettingsActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.apps.CoordinationActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.apps.ApprovialActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.mine.MessageManagerActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.mine.SecuritySettingActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.settings.CompanyMessageActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.settings.CompanyAuthenticationActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.apps.FileBoxActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.apps.TypeSetActicity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.apps.ProgressSetActivity"></activity>
+        <activity android:name="com.shiyidaoAndroidApp.ui.apps.FileUpLoadActivity"></activity>
+    </application>
+
+</manifest>

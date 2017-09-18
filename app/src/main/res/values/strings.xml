@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">食艺道</string>
+    <!--登录页面-->
+    <string name="login_title">OA办公</string>
+    <string name="in_put_phoneNumber">请输入手机号码</string>
+    <string name="in_put_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="reginst">注册</string>
+    <string name="forget_password">忘记密码？</string>
+    <!--注册-->
+    <string name="in_put_confirm_code">请输入验证码</string>
+    <string name="in_put_real_name">请输入真是姓名</string>
+    <string name="in_put_company_name">请输入公司名称</string>
+    <string name="in_put_password2">请输入密码（6-20）</string>
+    <string name="tip_company">每个企业仅能注册一次，注册人即为管理员</string>
+    <string name="create_company">创建企业</string>
+    <string name="get_confirm_code">获取验证码</string>
+    <string name="create_company_id">创建企业账号</string>
+    <string name="add_company">加入已有企业</string>
+    <string name="in_put_uu_code">请输入邀请码</string>
+    <string name="company_id">企业号</string>
+    <string name="next_step">下一步</string>
+    <!--重置密码-->
+    <string name="in_put_password_again">请再次输入密码</string>
+    <!--主页-->
+    <string-array name="boom_string">
+        <item>应用</item>
+        <item>消息</item>
+        <item>通讯录</item>
+        <item>我的</item>
+    </string-array>
+    <!--公告-->
+    <string name="all">全部</string>
+    <string name="company_notice">公司公告</string>
+    <string name="department_notice">部门公告</string>
+    <!--工作协同-->
+    <string name="work_coordination">工作协同</string>
+    <string name="my_task">我的任务</string>
+    <string name="done_task">完成任务</string>
+    <string name="closed_task">关闭任务</string>
+    <string name="new_task">新建任务</string>
+    <string name="task_name">任务名称</string>
+    <string name="task_synopsis">任务简介</string>
+    <string name="task_appindex">任务附件</string>
+    <string name="start_time">开始时间</string>
+    <string name="finish_time">完成时间</string>
+    <string name="add_cooperation">新增协作</string>
+    <string name="task_cooperation">任务协作</string>
+    <!--审批-->
+    <string name="approvial_text">审批</string>
+    <string name="cancle">取消</string>
+    <string name="upload">提交</string>
+    <string-array name="approvial_list">
+        <item >我的申请</item>
+        <item >我的审批</item>
+        <item >新增审批</item>
+        <item >功能设置</item>
+    </string-array>
+    <string name="approvial_id">审批编号</string>
+    <string name="apply_type">申请类型</string>
+    <string name="apply_content">申请内容</string>
+    <string name="approvial_appendix">审批附件</string>
+    <string name="approvial_person">审批人</string>
+    <string name="please_choose">请选择</string>
+    <string name="please_input_apply_content">请输入申请内容</string>
+    <string name="leave_process">请假流程</string>
+    <string name="pass">通过</string>
+    <string name="no_pass">不通过</string>
+    <!--功能设置-->
+    <string name="type_setting">类型设置</string>
+    <string name="type_setting1">Type Setting</string>
+    <string name="process_setting">流程设置</string>
+    <string name="process_setting2">Process Setting</string>
+    <string name="message_manager">资料管理</string>
+    <string name="security_setting">安全设置</string>
+    <string name="add_new_type">点击新增类型</string>
+    <string name="add_new_progress">点击新增流程</string>
+    <!--安全设置-->
+    <string name="login_password">登录密码</string>
+    <string name="bind_phone">绑定手机</string>
+    <!--企业信息-->
+    <string name="please_input">请填写</string>
+    <string name="company_logo">企业logo</string>
+    <string name="created">生成</string>
+    <string name="invited_code">邀请码</string>
+    <string name="code_message">每次生成有效期30分钟</string>
+    <string name="company_name">企业名称</string>
+    <string name="company_call">企业电话</string>
+    <string name="location_area">所在地区</string>
+    <string name="contacts">联系人</string>
+    <string name="contace_number">联系电话</string>
+    <string name="business">职务</string>
+    <string name="contact_mailbox">联系邮箱</string>
+    <string name="save">保存</string>
+    <string name="system_manage">系统管理</string>
+    <string name="company_message">企业信息</string>
+    <!--企业信息-->
+    <string name="subordinate_industry">所属行业</string>
+    <string name="resuce_files">资源文件</string>
+    <string name="file_box">文件库</string>
+    <!--上传文件-->
+    <string name="up_file">上传文件</string>
+    <string name="file_name">文件名称</string>
+    <string name="file_discrption">文件说明</string>
+    <string name="in_put_discrotion">请输入说明内容</string>
+    <string name="user_person">使用人员</string>
+    <string name="chose_file">选择附件</string>
+
+
+
+
+
+    <!--提交订单-->
+    <string name="place_order">提交订单</string>
+    <string name="place_order_adress">襄阳北路76弄2号楼</string>
+    <string name="place_order_name">姓名</string>
+    <string name="place_order_phone">13935652999</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/color_White"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        style="@style/layout_message_items"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/message_items_textview"
+            android:text="@string/subordinate_industry"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/message_items_edittext"
+            android:hint="@string/please_choose"/>
+        <TextView
+            android:layout_width="@dimen/dp43"
+            android:layout_height="@dimen/dp20"
+            android:background="@mipmap/group_55"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.5"
+        android:background="@color/color_0.5dp_line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        style="@style/layout_message_items"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/message_items_textview"
+            android:text="@string/location_area"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/message_items_edittext"
+            android:hint="@string/please_choose"/>
+        <TextView
+            android:layout_width="@dimen/dp43"
+            android:layout_height="@dimen/dp20"
+            android:background="@mipmap/group_55"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.5"
+        android:background="@color/color_0.5dp_line"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        style="@style/layout_message_items"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/message_items_textview"
+            android:text="@string/resuce_files"/>
+        <TextView
+            android:layout_width="@dimen/dp52"
+            android:layout_height="@dimen/dp52"
+            android:background="@mipmap/appendix_image"
+            style="@style/message_items_edittext"
+            android:hint="@string/please_choose"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.5"
+        android:background="@color/color_0.5dp_line"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp29.5"
+        android:text="1.企事业单位可直接上传营业执照副本"
+        style="@style/company_message_min_text_items"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.其他公共机构可上传盖有公章的介绍信"
+        style="@style/company_message_min_text_items"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            style="@style/bottom_button"/>
+    </RelativeLayout>
+
+</LinearLayout></layout>

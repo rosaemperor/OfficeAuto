@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="home_text_gray">#929292</color>
+    <color name="colorAccent">#4A90D2</color>
+    <color name="background_gray">#F3F3F4</color>
+    <color name="color_White">#FFFFFF</color>
+    <color name="text_color_white">#CCFFFFFF</color>
+    <color name="reginst_hint_color">#999999</color>
+    <color name="fragment_background_color">#D8D8DA</color>
+    <color name="hintTextColot">#80FFFFFF</color>
+    <color name="resetpasswordlinecolor">#CCCCCC</color>
+    <color name="login_backg">#4A90D2</color>
+    <color name="light_text_blue">#4A90E2</color>
+    <color name="color_black_light">#1D1D26</color>
+    <color name="color_black_text">#000000</color>
+    <color name="color_1dp_line">#1A1D1D26</color>
+    <color name="color_0.5dp_line">#DADADA</color>
+    <color name="apps_text_color">#929292 </color>
+    <color name="function_text_color_english">#BADAFF</color>
+    <color name="background_approvial_gray">#EDEDED</color>
+    <color name="company_message_text_color">#666666 </color>
+    <color name="notice_items_offText">#868686 </color>
+    <color name="color_fray838">#838383</color>
+    <color name="process_settings_background">#FFB204 </color>
+    <color name="textcolor_myapprovial_top">#868686</color>
+</resources>

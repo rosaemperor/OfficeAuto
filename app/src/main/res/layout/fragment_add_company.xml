@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<data>
+    <variable
+        name="event"
+        type="android.view.View.OnClickListener"/>
+</data>
+
+<LinearLayout
+    android:id="@+id/test"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/fragment_background_color">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/in_put_uu_code"
+        style="@style/reginst_hindText_EditText"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/company_id"
+        style="@style/reginst_hindText_EditText"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp0.5"
+        android:background="@color/fragment_background_color"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="@color/text_color_white"
+        android:padding="@dimen/dp25">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp18"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="39.5dp"
+            android:textColor="@color/text_color_white"
+            android:gravity="center"
+            android:onClick="@{event}"
+            android:textSize="@dimen/sp17"
+            android:id="@+id/next_step"
+            android:text="@string/next_step"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp12"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/dp43"
+            android:layout_above="@+id/next_step"
+            android:textColor="@color/reginst_hint_color"
+            android:text="@string/tip_company"/>
+    </RelativeLayout>
+</LinearLayout></layout>
